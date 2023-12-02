@@ -1,2 +1,192 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif; */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3,auto);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    grid-row: 1;
+    list-style: none;
+    padding: 40px 5.6% 90px 5.6%;
+}
+nav section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav li {
+    padding-left: 20px;
+}
+main {
+    grid-row: 2;
+}
+main section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5.6% 0px 5.6%;
+
+}
+main section article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+main section article h1 {
+    font-size: 30px;
+    text-wrap: balance;
+    padding-bottom: 10px;
+}
+p {
+    text-wrap: balance;
+    padding-bottom: 20px;
+}
+input {
+    padding: 10px;
+    width: 60%;
+}
+input::placeholder {
+    font-family: 'Raleway', sans-serif;
+}
+button {
+    width: 30%;
+    padding: 10px;
+    background-color:  hsl(224, 93%, 58%);
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    min-width: fit-content;
+    box-shadow: 0px 0px 1px black;
+    cursor: pointer;
+}
+button:hover {
+    background-color:  hsla(224, 93%, 58%, 0.844);
+}
+main section article img {
+    max-width: 100%;
+}
+div {
+    width: 100%;
+}
+.second {
+    background-color: hsl(240, 75%, 98%);
+    padding-bottom: 100px;
+}
+.link {
+    color: hsl(170, 45%, 43%);
+    margin-bottom: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-bottom: 2px hsl(170, 45%, 43%) solid;
+}
+.link a {
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+}
+.curve {
+    height: 114px;
+    width: 100%;
+    background: url(images/bg-curve-desktop.svg) top repeat-x ;
+}
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    width: fit-content;
+    border-radius: 10px;
+    text-wrap: balance;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.profile {
+    padding: 0;
+    display:flex;
+    flex-direction: row;    
+}
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.profile p {
+    font-size: 10px;
+}
+.profile header {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.profile p {
+    font-weight: 500;
+    font-size: 10px;
+}
+.third {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.third input {
+    width: 100%;
+}
+.third button {
+    margin-top: 20px;
+}
+footer {
+    grid-row: 3;
+    padding: 0 5.6% 0px 5.6%;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+footer img {
+    width: max-content;
+}
+.fylo {
+    margin-bottom: 20px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+footer li {
+    padding-bottom: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+footer li:hover {
+    color: blue;
+}
+footer i:hover {
+    color: blue;
+}
+.attribution {
+    margin-top: 100px;
+    text-align: center;
+}
+.attribution a {
+    color: white;
+}
+.attribution a:hover {
+    color: blue;
+}
