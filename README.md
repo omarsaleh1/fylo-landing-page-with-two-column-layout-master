@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./desin/Screenshot of Desktop Version.png)
+![](./design/Screenshot%20of%20Desktop%20Version.png)
 
 ### Links
 
