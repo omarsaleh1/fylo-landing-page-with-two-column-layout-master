@@ -190,3 +190,49 @@ footer i:hover {
 .attribution a:hover {
     color: blue;
 }
+@media (max-width: 700px) {
+    nav img {
+        width: 30%;
+    }
+    main {
+        text-align: center;
+    }
+    .card {
+        text-align: initial;
+        text-wrap: balance;
+    }
+    main section {
+        flex-direction: column-reverse;
+    }
+    main section article {
+        width: auto;
+    }
+    input {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .curve {
+        margin-top: 50px;
+        height: 53px;
+        background: url(/images/bg-curve-mobile.svg) top ;
+    }
+    .third {
+        flex-direction: column;
+    }
+    .link {
+        align-self: center;
+    }
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .icons {
+        text-align: center;
+    }
+    .attribution {
+        text-align: inherit;
+    }
+}
